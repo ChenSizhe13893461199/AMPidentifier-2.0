@@ -5,7 +5,7 @@ The source codes of the new deep learning tool have been finished, with a high A
 
 ### The framework of AMPidentifier 2.0 is summarized below:
 
-![]([https://github.com/ChenSizhe13893461199/AMPidentifier-2.0/1.png](https://github.com/ChenSizhe13893461199/AMPidentifier-2.0/blob/main/1.png))
+![](https://github.com/ChenSizhe13893461199/AMPidentifier-2.0/blob/main/1.png)
 
 
 
