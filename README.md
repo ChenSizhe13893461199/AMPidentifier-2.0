@@ -27,7 +27,7 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 - sklearn=1.2.0
 - propy3=1.1.0
 - gensim=4.2.0
-- 
+
 1. The deployment codes can be found in "Train_AMP_identifier2.py",
 
 
