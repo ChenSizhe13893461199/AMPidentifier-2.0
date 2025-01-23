@@ -37,4 +37,4 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 **Notes**
 Some available laptops may not be able to operate AMPidentifier 2.0 because of memory limitations. In that condition, you can copy the codes and run AMPidentifier 2.0 on the Jupyter viewer deployed on the high-performance server (e.g. CPU: Xeon(R) Gold 6430, GPU: RTX 4090, RAM: 120GB).
 
-
+We are preparing a detailed tutorial for both AMPidentifier 1.0 and AMPidentifier 2.0. Please feel free to contact us if you have any suggestions. Thank you for your attention.
