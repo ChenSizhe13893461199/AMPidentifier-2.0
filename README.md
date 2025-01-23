@@ -28,8 +28,11 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 - propy3=1.1.0
 - gensim=4.2.0
 
-1. The deployment codes can be found in "Train_AMP_identifier2.py", with full details and annotations attached. Firstly, open "Train_AMP_identifier2.py" on your laptop (e.g. by Spyder) and introduce all necessary packages aforementioned.
-2. Prepare the necessary dataset (training dataset, validation dataset, and test dataset), and their descriptors (for one-hot code, and word2-vec, the necessary documents have been provided in the GitHub repository). For the physiochemical descriptors, they are not uploaded to the GitHub repository because of their large size. You can use codes provided in "Train_AMP_identifier2.py" (lines) to calculate physiochemical descriptors.
+**1.** The deployment codes can be found in "Train_AMP_identifier2.py", with full details and annotations attached. Firstly, open "Train_AMP_identifier2.py" on your laptop (e.g. by Spyder) and introduce all the necessary packages aforementioned.
+**2.** Prepare the necessary dataset (training dataset, validation dataset, and test dataset), and their descriptors (for one-hot code, and word2-vec, the necessary documents have been provided in the GitHub repository). For the physiochemical descriptors, they are not uploaded to the GitHub repository because of their large size. You can use the codes and annotations provided in "Train_AMP_identifier2.py" (lines 81-86) to calculate physiochemical descriptors. Alternatively, you can also contact Sizhe Chen (1155202847@link.cuhk.edu.hk) to request these documents.
+**3.** Following the codes provided in "Train_AMP_identifier2.py" and running it in your local Spyder or other suitable environment directly, the training of AMPidentifier 2.0 will be smoothly performed.
 
+**Notes**
+Some available laptops may not be able to operate AMPidentifier 2.0 because of memory limitations. In that condition, you can copy the codes and run AMPidentifier 2.0 on the Jupyter viewer deployed on the high-performance server.
 
 
