@@ -28,7 +28,8 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 - propy3=1.1.0
 - gensim=4.2.0
 
-1. The deployment codes can be found in "Train_AMP_identifier2.py",
+1. The deployment codes can be found in "Train_AMP_identifier2.py", with full details and annotations attached. Firstly, open "Train_AMP_identifier2.py" on your laptop (e.g. by Spyder) and introduce all necessary packages aforementioned.
+2. Prepare the necessary dataset (training dataset, validation dataset, and test dataset), and their descriptors (for one-hot code, and word2-vec, the necessary documents have been provided in the GitHub repository).
 
 
 
