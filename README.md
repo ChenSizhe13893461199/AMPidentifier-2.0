@@ -35,6 +35,6 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 **3.** Following the codes provided in "Train_AMP_identifier2.py" and running it in your local Spyder or other suitable environment directly, the training of AMPidentifier 2.0 will be smoothly performed.
 
 **Notes**
-Some available laptops may not be able to operate AMPidentifier 2.0 because of memory limitations. In that condition, you can copy the codes and run AMPidentifier 2.0 on the Jupyter viewer deployed on the high-performance server.
+Some available laptops may not be able to operate AMPidentifier 2.0 because of memory limitations. In that condition, you can copy the codes and run AMPidentifier 2.0 on the Jupyter viewer deployed on the high-performance server (e.g. CPU: Xeon(R) Gold 6430, GPU: RTX 4090, RAM: 120GB).
 
 
