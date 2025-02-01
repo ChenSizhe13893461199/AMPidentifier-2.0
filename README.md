@@ -40,4 +40,4 @@ Some available laptops may not be able to operate AMPidentifier 2.0 because of m
 
 We are preparing a detailed tutorial for both AMPidentifier 1.0 and AMPidentifier 2.0 (will be available soon). Please feel free to contact us if you have any suggestions. Thank you for your attention.
 
-The model core file is also being prepared and will be uploaded to Fithub soon.
+The model core file is also being prepared and will be uploaded to Github soon
