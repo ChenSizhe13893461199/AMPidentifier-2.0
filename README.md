@@ -47,7 +47,7 @@ The model core file is also being prepared and will be uploaded to Github soon
 AMPidentifier 2.0 is a deep-learning neural network framework integrated with 3 unique computational blocks.
 
 The framework of the computational block 1 is shown below:
-
+![](block1.png)
 The computational block 1 was architected following the fundamental paradigm of multi-head attention mechanisms. We hypothesized that this architecture retained feature recognition capabilities despite reducing computationally intensive convolutional kernels, achieving dual objectives of parameter efficiency and pattern discernment in peptide sequences.
 
 The mathematical principles of computational block 2 have been illustrated in our previous work, with details shown below:
