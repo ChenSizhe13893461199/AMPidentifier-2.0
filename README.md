@@ -52,7 +52,7 @@ The computational block 1 was architected following the fundamental paradigm of 
 
 The mathematical principles of computational block 2 have been illustrated in our previous work [1], with details shown below:
 ![](block2.png)
-The computational block 2 was previously demonstrated to possess performance comparable to that of a nine-layer neural network block, showing improvement to overall model performance.
+The computational block 2 was previously demonstrated to possess performance comparable to that of a nine-layer neural network block, showing improvement to overall model performances.
 
 The framework of the computational block 3 is shown below:
 
