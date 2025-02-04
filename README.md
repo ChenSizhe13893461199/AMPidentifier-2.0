@@ -6,7 +6,7 @@
 This work is supervised by **Professor Siew N.G.**, **Professor Yang Sun**, and **Research Assistant Professor Qi Su**. The research work is primarily finished by **Sizhe Chen** (PhD student), and **Yuan Yue** (MPhil student) with equal contributions.
 
 # AMPidentifier-2.0
-This is an updated version of AMPidentifier 1.0 (https://github.com/ChenSizhe13893461199/Fast-AMPs-Discovery-Projects), with a rapid training rate on a normal laptop and overall high performances.
+This is an updated version of AMPidentifier 1.0 (https://github.com/ChenSizhe13893461199/Fast-AMPs-Discovery-Projects), with a rapid training rate on consumer-grade laptops and overall high performances.
 
 For more details on AMPidentifier 1.0, please refer to our previously published article: 
 
