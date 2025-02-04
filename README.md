@@ -42,9 +42,8 @@ We are preparing a detailed tutorial for both AMPidentifier 1.0 and AMPidentifie
 
 The model core file is also being prepared and will be uploaded to Github soon
 
-
-
 **Mathematical Details**
+
 AMPidentifier 2.0 is a deep-learning neural network framework integrated with 3 unique computational blocks.
 
 The framework of the computational block 1 is shown below:
