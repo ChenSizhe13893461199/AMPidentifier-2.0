@@ -50,8 +50,9 @@ The framework of the computational block 1 is shown below:
 ![](block1.png)
 The computational block 1 was architected following the fundamental paradigm of multi-head attention mechanisms. We hypothesized that this architecture retained feature recognition capabilities despite reducing computationally intensive convolutional kernels, achieving dual objectives of parameter efficiency and pattern discernment in peptide sequences.
 
-The mathematical principles of computational block 2 have been illustrated in our previous work, with details shown below:
+The mathematical principles of computational block 2 have been illustrated in our previous work [1], with details shown below:
 ![](block2.png)
+The computational block 2 was previously demonstrated to possess performance comparable to that of a nine-layer neural network block, showing improvement to overall model performance.
 
 The framework of the computational block 3 is shown below:
 
