@@ -41,3 +41,18 @@ Some old laptops may not be able to operate AMPidentifier 2.0 because of memory 
 We are preparing a detailed tutorial for both AMPidentifier 1.0 and AMPidentifier 2.0 (will be available soon). Please feel free to contact us if you have any suggestions. Thank you for your attention.
 
 The model core file is also being prepared and will be uploaded to Github soon
+
+
+
+**Mathematical Details**
+AMPidentifier 2.0 is a deep-learning neural network framework integrated with 3 unique computational blocks.
+
+The framework of the computational block 1 is shown below:
+
+The computational block 1 was architected following the fundamental paradigm of multi-head attention mechanisms. We hypothesized that this architecture retained feature recognition capabilities despite reducing computationally intensive convolutional kernels, achieving dual objectives of parameter efficiency and pattern discernment in peptide sequences.
+
+The mathematical principles of computational block 2 have been illustrated in our previous work, with details shown below:
+
+The framework of the computational block 3 is shown below:
+
+The computational block 3, inspired by the paradigm of convolutional block attention module (CBAM), was mathematically designed in the framework; CBAM dynamically refines informative features while suppressing less useful noises.
