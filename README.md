@@ -1,9 +1,9 @@
 ### Brief Introduction of Developers
 #### Developer Introduction
 
-**Sizhe Chen**, PhD Student (Medical Sciences) at Chinese University of Hong Kong (1155202847@link.cuhk.edu.hk). Supervisor: **Professor CHAN Ka Leung Francis**，**Professor Siew N.G.** and **Research Assistant Professor Qi Su**. Welcome to contact **Sizhe Chen** via the aforementioned email if you have any questions or suggestions.
+**Sizhe Chen**, PhD Student (Medical Sciences) at Chinese University of Hong Kong (1155202847@link.cuhk.edu.hk). Supervisor: **Professor CHAN Ka Leung Francis**，**Professor Siew N.G.**, and **Research Assistant Professor Qi Su**. Welcome to contact **Sizhe Chen** via the aforementioned email if you have any questions or suggestions.
 
-This work is supervised by **Professor Siew N.G.**, **Professor Yang Sun** and **Research Assistant Professor Qi Su**. The research work is primarily finished by **Sizhe Chen** (PhD student), and **Yuan Yue** (MPhil student) with equal contributions.
+This work is supervised by **Professor Siew N.G.**, **Professor Yang Sun**, and **Research Assistant Professor Qi Su**. The research work is primarily finished by **Sizhe Chen** (PhD student), and **Yuan Yue** (MPhil student) with equal contributions.
 
 # AMPidentifier-2.0
 This is an updated version of AMPidentifier 1.0 (https://github.com/ChenSizhe13893461199/Fast-AMPs-Discovery-Projects), with a rapid training rate on a normal laptop and overall high performances.
@@ -36,7 +36,7 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 
 **Notes:**
 
-Some available laptops may not be able to operate AMPidentifier 2.0 because of memory limitations. In that condition, you can copy the codes and run AMPidentifier 2.0 on the Jupyter viewer deployed on the high-performance server (e.g. CPU: Xeon(R) Gold 6430, GPU: RTX 4090, RAM: 120GB).
+Some old laptops may not be able to operate AMPidentifier 2.0 because of memory limitations (Intel i7-10875H CPU or better processor is recommended). In addition, you can also copy the codes and run AMPidentifier 2.0 on the Jupyter viewer deployed on the high-performance server (e.g. CPU: Xeon(R) Gold 6430, GPU: RTX 4090, RAM: 120GB).
 
 We are preparing a detailed tutorial for both AMPidentifier 1.0 and AMPidentifier 2.0 (will be available soon). Please feel free to contact us if you have any suggestions. Thank you for your attention.
 
