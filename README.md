@@ -56,6 +56,6 @@ The computational block 2 was previously demonstrated to possess performance com
 
 The framework of the computational block 3 is shown below:
 ![](block3.png)
-The computational block 3, a novel computational module, was mathematically designed in the framework; CBAM dynamically refines informative features while suppressing less useful noises.
+The computational block 3, a novel computational module, was mathematically designed in the framework; It dynamically refines informative features while suppressing less useful noises.
 
 Finally, by integration of all 3 computational blocks, our framework was deployed on a consumer-grade laptop (Intel i7-10875H CPU) and achieved high computational efficiency and the maintenance of predictive performance. AMPidentifier 2.0 (Model G) demonstrated remarkable performances (AUPRC: 0.9486±0.0003) parallel to AMPidentifier 1.0, and 70% reduction in training time costs (3200±53 seconds)
