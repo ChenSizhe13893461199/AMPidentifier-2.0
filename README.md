@@ -4,7 +4,8 @@
 **Sizhe Chen**, PhD Student (Medical Sciences) at Chinese University of Hong Kong (1155202847@link.cuhk.edu.hk). Supervisor: **Professor CHAN Ka Leung Francis**，**Professor Siew N.G.**, and **Research Assistant Professor Qi Su**. Welcome to contact **Sizhe Chen** via the aforementioned email if you have any questions or suggestions.
 
 This work is supervised by **Professor Siew N.G.**, **Professor Yang Sun**, and **Research Assistant Professor Qi Su**. The research work is primarily finished by **Sizhe Chen** (PhD student), and **Yuan Yue** (MPhil student) with equal contributions.
-![](Graphical Abstract.png)
+
+![](Graphical_Abstract.png)
 # AMPidentifier-2.0
 This is an updated version of AMPidentifier 1.0 (https://github.com/ChenSizhe13893461199/Fast-AMPs-Discovery-Projects), with a rapid training rate on consumer-grade laptops and overall high performances.
 
