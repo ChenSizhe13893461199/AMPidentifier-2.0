@@ -136,37 +136,12 @@ import torch.nn as nn
 import math
 import torch.nn.functional as F
 ###################################################################
-#Collecting all sequences of AMP/Non-AMP
-raw=[]
-for i in range(0,len(rawseq)):
- raw.append(rawseq[i])
-for i in range(0,len(rawseq1)):
- raw.append(rawseq1[i])
-for i in range(0,len(rawseq116)):
- raw.append(rawseq116[i])
-
-train_file_name = 'NLP.csv'  
-#Curate Protein Sequences from Uniprot, 
-#and those sequences shared with AMPs/Non-AMPs in our 
-#training/validation/test dataset were removed
-win1 = 50
-
-nlp, lengthnlp = getMatrixLabelnlp(train_file_name, win1)
-
-for i in range(0,len(nlp)):
- raw.append(nlp[i])
-###################################################################
 from gensim.models import Word2Vec
-#model6=Word2Vec(raw[:],sg=1,vector_size=100, window=50, min_count=1, hs=1,workers=4)
-
-#model6.wv.save_word2vec_format('word2vec11.bin',binary=True)
-
 from gensim.models import KeyedVectors
 
-wv = KeyedVectors.load_word2vec_format('word2vec11.bin', binary=True)#load the pre-trained word2vec model
+wv = KeyedVectors.load_word2vec_format('word2vec11.bin', binary=True)
 
-
-vector_size=100#the length of the vector
+vector_size=100 #the length of the vector
 ccc = np.zeros((len(rawseq), 50, vector_size))
 for i in range(0,len(rawseq)):
     t=0
