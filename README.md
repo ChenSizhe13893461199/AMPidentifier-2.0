@@ -26,7 +26,9 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 - numpy==1.23.5
 - sklearn=1.2.0
 - propy3=1.1.0
-- gensim=4.2.0
+- gensim=4.2.0 or 4.3.0
+- scipy=1.9.3
+- tensorflow=2.10.0
 
 **1.** The deployment codes can be found in "Train_AMP_identifier2.py", with full details and annotations attached. Firstly, open "Train_AMP_identifier2.py" on your laptop (e.g. by Spyder) and introduce all the necessary packages aforementioned.
 
