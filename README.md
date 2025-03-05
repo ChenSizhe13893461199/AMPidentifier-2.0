@@ -36,6 +36,29 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 
 **3.** Following the codes provided in "Train_AMP_identifier2.py" and running it in your local Spyder or other suitable environment directly, the training of AMPidentifier 2.0 will be smoothly performed.
 
+## Implementation details:
+
+1. The training sequences were deposited in the document TrainingAMP.csv
+2. The validation sequences were deposited in the document Validation.csv
+3. The test sequences were deposited in the document Non-AMPsfilter.csv
+
+This algorithm demands one-hot code matrix (sequential information，50×20), word2vec matrix (50×20) and physical/chemical descriptors matrix (91×17) as input.
+The one-hot code and word2vec matrix can be calculated by well-annotated codes (line 64-193) in "Train_AMP_identifier2.py" via using the three .csv documents aforementioned.
+ 
+The physical/chemical descriptors matrix can also be calculated by using three .csv documents aforementioned,
+
+For example, you can calculate the physical/chemical descriptors matrix by code:
+\
+  ```Matr=getMatrixLabelFingerprint(train_file_name, win1)```
+\
+And the pre-calculated physical/chemical descriptors matrices (91×17) have been deposited in 3 .npy documents. You can directly load them by codes:\
+\
+```X2 = np.load(file="Training_vector.npy")# Descriptor of Training dataset```\
+```X2tt = np.load(file="Test_vector.npy")# Descriptor of Test dataset```\
+```X2_val = np.load(file="5810_vector.npy")# Descriptor of Validation dataset```\
+\
+The aforementioned .npy descriptor documents can also be freely downloaded at with password:. Or you can contact author Sizhe Chen for these documents.
+
 **Notes:**
 
 Some old laptops may not be able to operate AMPidentifier 2.0 because of memory limitations (Intel i7-10875H CPU or better processor is recommended). In addition, you can also copy the codes and run AMPidentifier 2.0 on the Jupyter viewer deployed on the high-performance server (e.g. CPU: Xeon(R) Gold 6430, GPU: RTX 4090, RAM: 120GB).
