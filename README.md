@@ -50,8 +50,7 @@ The physical/chemical descriptors matrix can also be calculated by using three .
 For example, you can calculate the physical/chemical descriptors matrix by code:
 
 \
-  ```Matr=getMatrixLabelFingerprint(train_file_name, win1)```
-\
+  ```Matr=getMatrixLabelFingerprint(train_file_name, win1)```\
 
 And the pre-calculated physical/chemical descriptors matrices (91×17) have been deposited in 3 .npy documents. You can directly load them by codes:\
 \
