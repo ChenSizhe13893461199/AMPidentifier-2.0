@@ -47,7 +47,7 @@ The one-hot code and word2vec matrix can be calculated by well-annotated codes (
  
 The physical/chemical descriptors matrix can also be calculated by using three .csv documents aforementioned,
 
-For example, you can calculate the physical/chemical descriptors matrix by code:\
+For example, you can calculate the physical/chemical descriptors matrix by code:
 
 \
   ```Matr=getMatrixLabelFingerprint(train_file_name, win1)```
