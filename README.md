@@ -32,7 +32,7 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 
 **1.** The deployment codes can be found in "Train_AMP_identifier2.py", with full details and annotations attached. Firstly, open "Train_AMP_identifier2.py" on your laptop (e.g. by Spyder) and introduce all the necessary packages aforementioned.
 
-**2.** Prepare the necessary dataset (training dataset, validation dataset, and test dataset), and their descriptors (for one-hot code matrix, the necessary documents or codes for preparing them have been provided in the GitHub repository). For the physicochemical descriptors and necessary parametric files for calculating Word2Vec matrix, they can be freely downloaded at with password:.. Or you can use the codes and annotations provided in "Train_AMP_identifier2.py" (lines 81-86) to calculate physiochemical descriptors. Alternatively, you can also contact Sizhe Chen (1155202847@link.cuhk.edu.hk) to request these documents.
+**2.** Prepare the necessary dataset (training dataset, validation dataset, and test dataset), and their descriptors (for one-hot code matrix, the necessary documents or codes for preparing them have been provided in the GitHub repository). For the physicochemical descriptors and necessary parametric files for calculating Word2Vec matrix, they can be freely downloaded at with password:.. Or you can use the codes and annotations provided in "Train_AMP_identifier2.py" (lines 81-86) to calculate physicochemical descriptors. Alternatively, you can also contact Sizhe Chen (1155202847@link.cuhk.edu.hk) to request these documents.
 
 **3.** Following the codes provided in "Train_AMP_identifier2.py" and running it in your local Spyder or other suitable environment directly, the training of AMPidentifier 2.0 will be smoothly performed.
 
@@ -43,7 +43,7 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 3. The test sequences were deposited in the document Non-AMPsfilter.csv
 
 This algorithm demands one-hot code matrix (sequential information，50×20), word2vec matrix (50×20) and physical/chemical descriptors matrix (91×17) as input.
-The one-hot code, Word2Vec, and physicochemical matrix can be calculated by well-annotated codes (line 64-193) in "Train_AMP_identifier2.py" via using the three .csv documents aforementioned.
+The one-hot code, Word2Vec, and physicochemical matrix can be calculated by well-annotated codes (line 64-187) in "Train_AMP_identifier2.py" via using the three .csv documents aforementioned.
 
 The aforementioned .npy descriptor documents and files for calculating Word2Vec matrix can be freely downloaded at with password:. Or you can contact author Sizhe Chen for these documents.
 
