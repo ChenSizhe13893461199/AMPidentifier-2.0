@@ -43,7 +43,7 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 3. The test sequences were deposited in the document Non-AMPsfilter.csv
 
 This algorithm demands one-hot code matrix (sequential information，50×20), word2vec matrix (50×20) and physical/chemical descriptors matrix (91×17) as input.
-The one-hot code, Word2Vec, and physicochemical matrix can be calculated by well-annotated codes (line 64-187) in "Train_AMP_identifier2.py" via using the three .csv documents aforementioned. In addition, several files have been well prepared for your convenience. The physicochemical descriptors documents and parametric file for calculating Word2Vec matrix can be freely downloaded at https://pan.baidu.com/s/1pC5JM8GkOSNr36CbwGv3zg with password: 1166. Or you can contact author Sizhe Chen for these documents.
+The one-hot code, Word2Vec, and physicochemical matrix can be calculated by well-annotated codes (line 64-187) in "Train_AMP_identifier2.py" via using the three .csv documents aforementioned. In addition, several necessary files have been well prepared for your convenience, and you don't have to recalculate them again. The physicochemical descriptors documents and parametric file for calculating Word2Vec matrix can be freely downloaded at https://pan.baidu.com/s/1pC5JM8GkOSNr36CbwGv3zg with password: 1166. Or you can contact author Sizhe Chen for these documents if any problems occur during the downloading.
 
 **Notes:**
 
