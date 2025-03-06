@@ -40,9 +40,9 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 
 ## Implementation details:
 
-1. The training sequences were deposited in the document TrainingAMP.csv
-2. The validation sequences were deposited in the document Validation.csv
-3. The test sequences were deposited in the document Non-AMPsfilter.csv
+**1.** The training sequences were deposited in the document TrainingAMP.csv
+**2.** The validation sequences were deposited in the document Validation.csv
+**3.** The test sequences were deposited in the document Non-AMPsfilter.csv
 
 This algorithm demands one-hot code matrix (sequential information，50×20), word2vec matrix (50×20) and physical/chemical descriptors matrix (91×17) as input.
 
