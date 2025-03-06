@@ -231,6 +231,15 @@ opt = adam_v2.Adam(learning_rate=learning_rate,
 
 model1.compile(loss='binary_crossentropy',optimizer=opt,metrics=['accuracy'])
 
+#Focal loss method has also been tried in our preliminary tests; However, the model performances were severely decreased by using this method. 
+#Though the number of non-AMPs is much larger than AMPs, the prediction difficulty in AMPs is actually much lower than predictions 
+#in diverse non-AMPs, due to the well-known amphipathic and cationic features in AMPs. As a comparison, the features in non-AMPs
+#are relatively more diverse and complexing. Under this scenario, focal loss may reduce the performance in predicting easily classified AMPs 
+#because of the weighting assignment ideal intrinsically applied by the focal loss method; While the 
+#predictions of non-AMPs may still not be improved due to lack of sufficient fitting on the overall AMPs dataset
+
+#Therefore, the binary_crossentropy loss method was applied here, as it showed optimal compatibility to our model.
+
 history = model1.fit([aaa[:43404],vector[:43404],bbb[:43404]], ddd[:43404], batch_size=nb_batch_size,validation_data=([aaa[43404:],vector[43404:],bbb[43404:]], ddd[43404:]),epochs=nb_epoch, shuffle=True, verbose=1)
     
 
