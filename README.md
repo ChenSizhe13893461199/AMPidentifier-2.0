@@ -30,17 +30,19 @@ The source codes of the AMPidentifier 2.0 are available here, with an average **
 - scipy=1.9.3
 - tensorflow=2.10.0
 
-## Implementation details:
-
-1. The training sequences were deposited in the document TrainingAMP.csv
-2. The validation sequences were deposited in the document Validation.csv
-3. The test sequences were deposited in the document Non-AMPsfilter.csv
+## General utilization:
 
 **1.** The deployment codes can be found in "Train_AMP_identifier2.py", with full details and annotations attached. Firstly, open "Train_AMP_identifier2.py" on your laptop (e.g. by Spyder) and introduce all the necessary packages aforementioned.
 
 **2.** Prepare the necessary dataset (training dataset, validation dataset, and test dataset), and their descriptors. For more details, please refer to the section of **Implementation details** below.
 
 **3.** Following the codes provided in "Train_AMP_identifier2.py" and running it in your local Spyder or other suitable environment directly, the training of AMPidentifier 2.0 will be smoothly performed.
+
+## Implementation details:
+
+1. The training sequences were deposited in the document TrainingAMP.csv
+2. The validation sequences were deposited in the document Validation.csv
+3. The test sequences were deposited in the document Non-AMPsfilter.csv
 
 This algorithm demands one-hot code matrix (sequential information，50×20), word2vec matrix (50×20) and physical/chemical descriptors matrix (91×17) as input.
 The one-hot code, Word2Vec, and physicochemical matrix can be calculated by well-annotated codes (line 64-187) in "Train_AMP_identifier2.py" via using the three .csv documents aforementioned. In addition, several necessary files containing pre-calculated physicochemical matrix and Word2Vec parametric file have been well prepared for user convenience, and users don't have to recalculate them again. They can be freely downloaded at https://pan.baidu.com/s/1pC5JM8GkOSNr36CbwGv3zg with password: 1166.
